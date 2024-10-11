@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Pemesanan Tiket Pesawat</title>
+    </head>
+    <body>
+        <header>
+            <h1>Form Pemesanan Tiket Pesawat</h1>
+        </header>
+        <main>
+            <section>
+                <fieldset>
+                <legend><h2>Informasi Penumpang</h2></legend>
+                <form>
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" placeholder="masukkan nama lengkap"><br><br>
+                    <label for="identitas">Nomor Identitas (KTP/Paspor)</label>
+                    <input type="text" id="identitas" name="identitas" placeholder="masukkan nomor identitas"><br><br>
+                    <label for="jenis_kelamin">Jenis Kelamin</label>
+                    <select id="jenis_kelamin" name="jenis_kelamin">
+                        <option value="">Pilih Jenis Kelamin</option>
+                    <option value="Laki-Laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                    </select><br><br>
+                    <label for="alamat_email">Alamat Email:</label>
+                    <input type="text" id="alamat_email" name="alamat_email" placeholder="masukkan alamat email"><br><br>
+                    <label for="no_telepon">Nomor Telepon:</label>
+                    <input type="text" id="no_telepon" name="no_telepon" placeholder="masukkan nomor telepon"><br><br>
+                    <label for="asal">Asal</label>
+                    <select id="asal" name="asal">
+                        <option value="">Pilih Asal</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Surabaya">Surabaya</option>
+                    </select><br><br>
+                      </form></fieldset>
+            
+                <section>
+                    <fieldset>
+                    <legend><h2>Informasi Penerbangan</legend></h2>
+                    <label for="bandara_keberangkatan">Bandara Keberangkatan:</label>
+                    <select id="bandara_keberangkatan" name="bandara_keberangkatan">
+                        <option value="">Pilih Bandara Keberangkatan</option>
+                        <option value="bandara_internasional_lombok">Banadara Internasional Lombok</option>
+                        <option value="bandara_soekarno_hatta">Bandara Soekarno Hatta</option>
+                        <option value="bandara_juanda_surabaya">Bandara Juanda Surabaya (SUB)</option>
+                        <option value="ahmad_yani">Ahmad Yani</option>
+                    </select><br><br>
+                    <label for="bandara_tujuan">Bandara Tujuan:</label>
+                    <select id="bandara_tujuan" name="bandara_tujuan">
+                        <option value="">Pilihan Bnadara Tujuan</option>
+                        <option value="bandara_internasional_lombok">Bandara Internasional Lombok</option>
+                        <option value="bandara_soekarno_hatta">Bandara Soekarno Hatta</option>
+                        <option value="bandara_juanda_surabaya">Bandara Juanda Surabaya</option>
+                    </select><br><br>
+
+                    <label for="tanggal">Tanggal Keberangkatan:</label>
+                    <input type="date" id="tanggal" name="tanggal"><br><br>
+
+                    <label for="tanggal">Tanggal Kepulangan(opsional)</label>
+                    <input type="date" id="tanggal" name="tanggal"><br><br>
+
+                    <label for="jumlah_penumpang">Jumlah Penumpang:</label>
+                    <select id="jumlah_penumpang" name="jumlah_penumpang">
+                        <option value="">Pilih Jumlah Penumpang</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select><br><br>
+
+                    <label for="kelas_penerbangan">Kelas Penerbangan:</label>
+                    <select id="kelas_penerbangan" name="kelas_penerbangan">
+                    <option value="">Pilih Kelas Penerbangan</option>
+                        <option value="ekonomi">Ekonomi</option>
+                        <option value="ekonomi_premium">Ekonomi Premium</option>
+                        <option value="bisnis">Bisnis</option>
+                        <option value="first_class">First Class</option>
+                    </select><br><br>
+                    </fieldset>
+                    </section>
+                    
+                    <fieldset>
+                <legend><h2>Metode Pembayaran</h2></legend>
+                <option value="">Pilih Metode Pembayaran</option>
+                <ul>
+                    <li><input type="radio" name="payment" value="credit_card">Kartu Kredit</li>
+                    <li><input type="radio" name="payment" value="bank_transfer">Transfer Bank</l1>
+                    <li><input type="radio" name="payment" value="e_wallet">E-Wallet (GoPay, OVO, dll.)</li>
+                </ul>
+                </fieldset>
+                
+
+                    <input type="submit" value="Pesan Tiket">
+                    
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;2024 Form Pemesanan Tiket Pesawat</p>
+        </footer>
+    </body>
+</html>
