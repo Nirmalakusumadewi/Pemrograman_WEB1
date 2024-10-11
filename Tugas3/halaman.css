@@ -1,0 +1,51 @@
+.gambar-kecil {
+    width: 80%;
+    height: auto;
+}
+
+
+.pricing-panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* Reduced padding */
+    gap: 0; /* Added gap propert */
+    }
+
+.pricing-plan {
+    border: 1px solid #ccc;
+    padding: 15px; /* Reduced padding */
+    text-align: center;
+}
+
+.pricing-plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ccc;
+    
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    color: #007bff;
+}
+
+.pricing-plan ul li {
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+.pricing-plan .price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.pricing-plan button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
