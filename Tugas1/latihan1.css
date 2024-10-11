@@ -1,0 +1,82 @@
+.profile{
+    margin: 20px auto;
+} 
+
+.gambar-kecil {
+    width: 80%;
+    height: auto;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: relative;
+    z-index: 1;
+} 
+.circle-image {
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+section {
+    padding: 20px;
+}
+
+/* Gaya tambahan untuk membuat tampilan lebih menarik*/
+.gambar-mahasiswa {
+    border: 50%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pembatas {
+    border: 1px solid #ccc; /* Garis batas dengan warna abu-abu */
+    padding: 10px; /* Jarak antara teks dan batas */
+    background-color: #f9f9f9; /* Warna latar belakang */
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+/*Gaya untuk tampilan mobile*/
+nav a {
+    float: none;
+    width: 100%;
+}
+}
